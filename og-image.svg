@@ -1,0 +1,74 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004182;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a66c2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.02" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="0.3" opacity="0.08"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)" />
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="5" fill="url(#accentLine)" />
+
+  <!-- Left decorative card -->
+  <rect x="60" y="80" width="320" height="180" rx="8" fill="url(#cardGrad)" stroke="white" stroke-width="0.5" stroke-opacity="0.15" />
+  <rect x="60" y="80" width="4" height="180" rx="2" fill="white" opacity="0.4" />
+  <text x="84" y="116" font-family="monospace" font-size="10" fill="white" opacity="0.5" letter-spacing="2">// HEADLINE</text>
+  <rect x="84" y="128" width="60" height="8" rx="2" fill="white" opacity="0.15" />
+  <text x="84" y="158" font-family="sans-serif" font-size="13" fill="white" opacity="0.7" font-weight="600">Your headline is vague</text>
+  <text x="84" y="178" font-family="sans-serif" font-size="11" fill="white" opacity="0.45">and forgettable.</text>
+  <!-- severity dots -->
+  <circle cx="84" cy="218" r="5" fill="white" opacity="0.8"/>
+  <circle cx="98" cy="218" r="5" fill="white" opacity="0.8"/>
+  <circle cx="112" cy="218" r="5" fill="white" opacity="0.8"/>
+  <circle cx="126" cy="218" r="5" fill="white" opacity="0.8"/>
+  <circle cx="140" cy="218" r="5" fill="white" opacity="0.2"/>
+
+  <!-- Right decorative card -->
+  <rect x="820" y="360" width="320" height="180" rx="8" fill="url(#cardGrad)" stroke="white" stroke-width="0.5" stroke-opacity="0.15" />
+  <rect x="820" y="360" width="4" height="180" rx="2" fill="white" opacity="0.25" />
+  <text x="844" y="396" font-family="monospace" font-size="10" fill="white" opacity="0.5" letter-spacing="2">// EXPERIENCE</text>
+  <rect x="844" y="408" width="80" height="8" rx="2" fill="white" opacity="0.15" />
+  <text x="844" y="438" font-family="sans-serif" font-size="13" fill="white" opacity="0.7" font-weight="600">No description. Just a</text>
+  <text x="844" y="458" font-family="sans-serif" font-size="13" fill="white" opacity="0.7">job title floating on a page.</text>
+  <circle cx="844" cy="498" r="5" fill="white" opacity="0.8"/>
+  <circle cx="858" cy="498" r="5" fill="white" opacity="0.8"/>
+  <circle cx="872" cy="498" r="5" fill="white" opacity="0.8"/>
+  <circle cx="886" cy="498" r="5" fill="white" opacity="0.2"/>
+  <circle cx="900" cy="498" r="5" fill="white" opacity="0.2"/>
+
+  <!-- Main headline -->
+  <text x="600" y="220" font-family="Impact, 'Arial Black', sans-serif" font-size="112" fill="white" text-anchor="middle" letter-spacing="4" opacity="0.95">LINKED</text>
+  <text x="600" y="340" font-family="Impact, 'Arial Black', sans-serif" font-size="112" fill="white" text-anchor="middle" letter-spacing="4" opacity="0.3">ROAST</text>
+
+  <!-- Divider line -->
+  <rect x="440" y="358" width="320" height="2" rx="1" fill="white" opacity="0.2" />
+
+  <!-- Tagline -->
+  <text x="600" y="410" font-family="sans-serif" font-size="22" fill="white" text-anchor="middle" opacity="0.75" letter-spacing="1">Brutal honesty for your LinkedIn profile.</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="570" width="1200" height="60" fill="black" opacity="0.25" />
+  <text x="60" y="603" font-family="monospace" font-size="13" fill="white" opacity="0.6" letter-spacing="1">huzaifazahoor.github.io/linked-roast</text>
+  <text x="1140" y="603" font-family="monospace" font-size="11" fill="white" opacity="0.4" text-anchor="end" letter-spacing="1">Powered by Claude AI</text>
+
+  <!-- Score badge -->
+  <rect x="520" y="440" width="160" height="40" rx="20" fill="white" opacity="0.12" stroke="white" stroke-width="1" stroke-opacity="0.3" />
+  <text x="600" y="466" font-family="monospace" font-size="13" fill="white" text-anchor="middle" letter-spacing="2" opacity="0.9">FREE &amp; OPEN SOURCE</text>
+</svg>
